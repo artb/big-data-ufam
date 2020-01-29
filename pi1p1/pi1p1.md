@@ -4,9 +4,7 @@
 
 1.  a-breeding	1
 2.  zeals	1
-3.  part 0000 -> 2662
-    part 0001 -> 2710
-    part 0002 -> 2553
-    part 0003 -> 2659
-    part 0003 -> 2757
-    TOTAL: 13,341
+3.  TOTAL: 12,664
+4.  aaron	96
+5.  zeals	1
+6.  TOTAL: 8,027

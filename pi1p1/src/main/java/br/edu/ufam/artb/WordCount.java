@@ -58,7 +58,7 @@ public class WordCount extends Configured implements Tool {
     public void map(LongWritable key, Text value, Context context)
         throws IOException, InterruptedException {
       for (String word : Tokenizer.tokenize(value.toString())) {
-        if (word.matches(“[A-Za-z]+”)) {
+        if (word.matches("[A-Za-z]+")) {
             WORD.set(word);
             context.write(WORD, ONE);
         }
